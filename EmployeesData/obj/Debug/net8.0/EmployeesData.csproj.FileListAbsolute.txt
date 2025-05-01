@@ -1,0 +1,13 @@
+C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.csproj.AssemblyReference.cache
+C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.AssemblyInfoInputs.cache
+C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.AssemblyInfo.cs
+C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.csproj.CoreCompileInputs.cache
+C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.sourcelink.json
+C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesData\bin\Debug\net8.0\EmployeesData.deps.json
+C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesData\bin\Debug\net8.0\EmployeesData.dll
+C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesData\bin\Debug\net8.0\EmployeesData.pdb
+C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.dll
+C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\refint\EmployeesData.dll
+C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.pdb
+C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\ref\EmployeesData.dll

@@ -11,3 +11,18 @@ C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\Employee
 C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\refint\EmployeesData.dll
 C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.pdb
 C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\ref\EmployeesData.dll
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesData\bin\Debug\net8.0\EmployeesData.deps.json
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesData\bin\Debug\net8.0\EmployeesData.dll
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesData\bin\Debug\net8.0\EmployeesData.pdb
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.csproj.AssemblyReference.cache
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.AssemblyInfoInputs.cache
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.AssemblyInfo.cs
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.csproj.CoreCompileInputs.cache
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.sourcelink.json
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.dll
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\refint\EmployeesData.dll
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.pdb
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\ref\EmployeesData.dll
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesData\bin\Debug\net8.0\EmployeesData.runtimeconfig.json
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesData\obj\Debug\net8.0\EmployeesData.genruntimeconfig.cache

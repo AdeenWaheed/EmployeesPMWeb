@@ -47,5 +47,19 @@ namespace EmployeesData.Repositories.Implementations
             }
             return existingEmployee;
         }
+
+        public async Task<bool> DeleteEmployee(int empId)
+        {
+            var existingEmp = await _employeeDBContext.Employees.FirstOrDefaultAsync(x => x.Id == empId);
+
+            if (existingEmp != null)
+            { 
+                _employeeDBContext.Remove(existingEmp);
+                await _employeeDBContext.SaveChangesAsync();
+
+                return true;
+            }
+            return false;
+        }
     }
 }

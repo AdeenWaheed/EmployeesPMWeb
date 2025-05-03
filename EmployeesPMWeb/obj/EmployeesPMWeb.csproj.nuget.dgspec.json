@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesPMWeb\\EmployeesPMWeb.csproj": {}
+    "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\EmployeesPMWeb.csproj": {}
   },
   "projects": {
-    "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesData\\EmployeesData.csproj": {
+    "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesData\\EmployeesData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesData\\EmployeesData.csproj",
+        "projectUniqueName": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesData\\EmployeesData.csproj",
         "projectName": "EmployeesData",
-        "projectPath": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesData\\EmployeesData.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesData\\obj\\",
+        "projectPath": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesData\\EmployeesData.csproj",
+        "packagesPath": "C:\\Users\\waheeade\\.nuget\\packages\\",
+        "outputPath": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\waheeade\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -55,6 +55,16 @@
               "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.4, )"
             }
@@ -75,24 +85,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesPMWeb\\EmployeesPMWeb.csproj": {
+    "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\EmployeesPMWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesPMWeb\\EmployeesPMWeb.csproj",
+        "projectUniqueName": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\EmployeesPMWeb.csproj",
         "projectName": "EmployeesPMWeb",
-        "projectPath": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesPMWeb\\EmployeesPMWeb.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesPMWeb\\obj\\",
+        "projectPath": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\EmployeesPMWeb.csproj",
+        "packagesPath": "C:\\Users\\waheeade\\.nuget\\packages\\",
+        "outputPath": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\waheeade\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -107,8 +117,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesService\\EmployeesService.csproj": {
-                "projectPath": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesService\\EmployeesService.csproj"
+              "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesService\\EmployeesService.csproj": {
+                "projectPath": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesService\\EmployeesService.csproj"
               }
             }
           }
@@ -123,11 +133,23 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -147,24 +169,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesService\\EmployeesService.csproj": {
+    "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesService\\EmployeesService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesService\\EmployeesService.csproj",
+        "projectUniqueName": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesService\\EmployeesService.csproj",
         "projectName": "EmployeesService",
-        "projectPath": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesService\\EmployeesService.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesService\\obj\\",
+        "projectPath": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesService\\EmployeesService.csproj",
+        "packagesPath": "C:\\Users\\waheeade\\.nuget\\packages\\",
+        "outputPath": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\waheeade\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -179,8 +201,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesData\\EmployeesData.csproj": {
-                "projectPath": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesData\\EmployeesData.csproj"
+              "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesData\\EmployeesData.csproj": {
+                "projectPath": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesData\\EmployeesData.csproj"
               }
             }
           }
@@ -195,7 +217,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -216,7 +238,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

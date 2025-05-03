@@ -47,6 +47,29 @@ namespace EmployeesService.Services.Implementations
             return employeeDto;
         }
 
+        public async Task<EmployeeDto> AddEmployee(EmployeeDto employeeDto)
+        {
+            var employee = new Employee()
+            {
+                Name = employeeDto.Name,
+                Position = employeeDto.Position,
+                Salary = employeeDto.Salary,
+                isActive = employeeDto.isActive,
+                DateOfJoining = employeeDto.DateOfJoining
+            };
+            var addedEmployee = await _employeeRepo.AddEmployee(employee);
+            var addedEmployeeDto = new EmployeeDto()
+            {
+                Id = addedEmployee.Id,
+                Name = addedEmployee.Name,
+                Position = addedEmployee.Position,
+                Salary = addedEmployee.Salary,
+                isActive = addedEmployee.isActive,
+                DateOfJoining = addedEmployee.DateOfJoining
+            };
+            return addedEmployeeDto;
+        }
+
         public async Task<EmployeeDto> UpdateEmployee(EmployeeDto employeeDto)
         {
             var employee = new Employee()
@@ -69,6 +92,12 @@ namespace EmployeesService.Services.Implementations
                 DateOfJoining = updatedEmployee.DateOfJoining
             };
             return updatedEmployeeDto;
+        }
+
+        public async Task<bool> DeleteEmployee(int empId)
+        { 
+            var resp = await _employeeRepo.DeleteEmployee(empId);
+            return resp;
         }
     }
 }

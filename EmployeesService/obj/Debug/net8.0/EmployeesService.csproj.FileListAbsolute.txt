@@ -14,3 +14,19 @@ C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesService\obj\Debug\net8.0\Emplo
 C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesService\obj\Debug\net8.0\refint\EmployeesService.dll
 C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesService\obj\Debug\net8.0\EmployeesService.pdb
 C:\Minz\Practice Projects\EmployeesPMWeb\EmployeesService\obj\Debug\net8.0\ref\EmployeesService.dll
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesService\bin\Debug\net8.0\EmployeesService.deps.json
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesService\bin\Debug\net8.0\EmployeesService.dll
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesService\bin\Debug\net8.0\EmployeesService.pdb
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesService\bin\Debug\net8.0\EmployeesData.dll
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesService\bin\Debug\net8.0\EmployeesData.pdb
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesService\obj\Debug\net8.0\EmployeesService.csproj.AssemblyReference.cache
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesService\obj\Debug\net8.0\EmployeesService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesService\obj\Debug\net8.0\EmployeesService.AssemblyInfoInputs.cache
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesService\obj\Debug\net8.0\EmployeesService.AssemblyInfo.cs
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesService\obj\Debug\net8.0\EmployeesService.csproj.CoreCompileInputs.cache
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesService\obj\Debug\net8.0\EmployeesService.sourcelink.json
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesService\obj\Debug\net8.0\Employee.249EA2CF.Up2Date
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesService\obj\Debug\net8.0\EmployeesService.dll
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesService\obj\Debug\net8.0\refint\EmployeesService.dll
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesService\obj\Debug\net8.0\EmployeesService.pdb
+D:\Practice Projects New\EmployeesPMWeb_Repo\EmployeesPMWeb\EmployeesService\obj\Debug\net8.0\ref\EmployeesService.dll

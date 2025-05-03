@@ -1,46 +1,39 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesPMWeb\\",
+  "WorkspaceRootPath": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|c:\\minz\\practice projects\\employeespmweb\\employeespmweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|d:\\practice projects new\\employeespmweb_repo\\employeespmweb\\employeespmweb\\views\\shared\\_employeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|solutionrelative:views\\shared\\_employeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72CE6234-8CE4-4D37-A179-3272B5ED52C6}|..\\EmployeesData\\EmployeesData.csproj|c:\\minz\\practice projects\\employeespmweb\\employeesdata\\entities\\employeedepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|d:\\practice projects new\\employeespmweb_repo\\employeespmweb\\employeespmweb\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF2BC0C8-E548-4AE1-A444-B918C77B7302}|..\\EmployeesService\\EmployeesService.csproj|c:\\minz\\practice projects\\employeespmweb\\employeesservice\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|d:\\practice projects new\\employeespmweb_repo\\employeespmweb\\employeespmweb\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72CE6234-8CE4-4D37-A179-3272B5ED52C6}|..\\EmployeesData\\EmployeesData.csproj|c:\\minz\\practice projects\\employeespmweb\\employeesdata\\repositories\\implementations\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF2BC0C8-E548-4AE1-A444-B918C77B7302}|..\\EmployeesService\\EmployeesService.csproj|d:\\practice projects new\\employeespmweb_repo\\employeespmweb\\employeesservice\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF2BC0C8-E548-4AE1-A444-B918C77B7302}|..\\EmployeesService\\EmployeesService.csproj|c:\\minz\\practice projects\\employeespmweb\\employeesservice\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72CE6234-8CE4-4D37-A179-3272B5ED52C6}|..\\EmployeesData\\EmployeesData.csproj|d:\\practice projects new\\employeespmweb_repo\\employeespmweb\\employeesdata\\repositories\\implementations\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72CE6234-8CE4-4D37-A179-3272B5ED52C6}|..\\EmployeesData\\EmployeesData.csproj|c:\\minz\\practice projects\\employeespmweb\\employeesdata\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72CE6234-8CE4-4D37-A179-3272B5ED52C6}|..\\EmployeesData\\EmployeesData.csproj|c:\\minz\\practice projects\\employeespmweb\\employeesdata\\dbcontext\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72CE6234-8CE4-4D37-A179-3272B5ED52C6}|..\\EmployeesData\\EmployeesData.csproj|c:\\minz\\practice projects\\employeespmweb\\employeesdata\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|c:\\minz\\practice projects\\employeespmweb\\employeespmweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|c:\\minz\\practice projects\\employeespmweb\\employeespmweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|c:\\minz\\practice projects\\employeespmweb\\employeespmweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|d:\\practice projects new\\employeespmweb_repo\\employeespmweb\\employeespmweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|c:\\minz\\practice projects\\employeespmweb\\employeespmweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|d:\\practice projects new\\employeespmweb_repo\\employeespmweb\\employeespmweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|d:\\practice projects new\\employeespmweb_repo\\employeespmweb\\employeespmweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|d:\\practice projects new\\employeespmweb_repo\\employeespmweb\\employeespmweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{76111F5D-C72C-48CB-90CB-79E94138E52A}|EmployeesPMWeb.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -51,160 +44,228 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 33,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvzAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T19:51:05.335Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-30T19:32:47.758Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T14:27:40.645Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T14:42:33.154Z",
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:421934398:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesService\\Services\\Implementations\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "..\\EmployeesService\\Services\\Implementations\\EmployeeService.cs",
+              "ToolTip": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesService\\Services\\Implementations\\EmployeeService.cs",
+              "RelativeToolTip": "..\\EmployeesService\\Services\\Implementations\\EmployeeService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAlwF0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T18:54:51.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeRepo.cs",
+              "DocumentMoniker": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesData\\Repositories\\Implementations\\EmployeeRepo.cs",
+              "RelativeDocumentMoniker": "..\\EmployeesData\\Repositories\\Implementations\\EmployeeRepo.cs",
+              "ToolTip": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesData\\Repositories\\Implementations\\EmployeeRepo.cs",
+              "RelativeToolTip": "..\\EmployeesData\\Repositories\\Implementations\\EmployeeRepo.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAD4vzIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T18:54:29.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwEIAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T14:37:23.375Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesPMWeb\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesPMWeb\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T19:51:05.335Z",
+              "Title": "_EmployeeList.cshtml",
+              "DocumentMoniker": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\Views\\Shared\\_EmployeeList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_EmployeeList.cshtml",
+              "ToolTip": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\Views\\Shared\\_EmployeeList.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_EmployeeList.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T14:41:49.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EmployeeDto.cs",
-              "DocumentMoniker": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesService\\Dtos\\EmployeeDto.cs",
-              "RelativeDocumentMoniker": "..\\EmployeesService\\Dtos\\EmployeeDto.cs",
-              "ToolTip": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesService\\Dtos\\EmployeeDto.cs",
-              "RelativeToolTip": "..\\EmployeesService\\Dtos\\EmployeeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T19:25:01.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeRepo.cs",
-              "DocumentMoniker": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesData\\Repositories\\Implementations\\EmployeeRepo.cs",
-              "RelativeDocumentMoniker": "..\\EmployeesData\\Repositories\\Implementations\\EmployeeRepo.cs",
-              "ToolTip": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesData\\Repositories\\Implementations\\EmployeeRepo.cs",
-              "RelativeToolTip": "..\\EmployeesData\\Repositories\\Implementations\\EmployeeRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T18:16:00.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmployeeDBContext.cs",
-              "DocumentMoniker": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesData\\DBContext\\EmployeeDBContext.cs",
-              "RelativeDocumentMoniker": "..\\EmployeesData\\DBContext\\EmployeeDBContext.cs",
-              "ToolTip": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesData\\DBContext\\EmployeeDBContext.cs",
-              "RelativeToolTip": "..\\EmployeesData\\DBContext\\EmployeeDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T18:05:32.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesData\\Entities\\Department.cs",
-              "RelativeDocumentMoniker": "..\\EmployeesData\\Entities\\Department.cs",
-              "ToolTip": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesData\\Entities\\Department.cs",
-              "RelativeToolTip": "..\\EmployeesData\\Entities\\Department.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T18:01:01.967Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeDepartment.cs",
-              "DocumentMoniker": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesData\\Entities\\EmployeeDepartment.cs",
-              "RelativeDocumentMoniker": "..\\EmployeesData\\Entities\\EmployeeDepartment.cs",
-              "ToolTip": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesData\\Entities\\EmployeeDepartment.cs",
-              "RelativeToolTip": "..\\EmployeesData\\Entities\\EmployeeDepartment.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T18:00:15.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesData\\Entities\\Employee.cs",
-              "RelativeDocumentMoniker": "..\\EmployeesData\\Entities\\Employee.cs",
-              "ToolTip": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesData\\Entities\\Employee.cs",
-              "RelativeToolTip": "..\\EmployeesData\\Entities\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T17:57:43.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesService\\Services\\Implementations\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "..\\EmployeesService\\Services\\Implementations\\EmployeeService.cs",
-              "ToolTip": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesService\\Services\\Implementations\\EmployeeService.cs",
-              "RelativeToolTip": "..\\EmployeesService\\Services\\Implementations\\EmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T19:52:57.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesPMWeb\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesPMWeb\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
+              "ToolTip": "D:\\Practice Projects New\\EmployeesPMWeb_Repo\\EmployeesPMWeb\\EmployeesPMWeb\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T19:41:31.018Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesPMWeb\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesPMWeb\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T19:34:56.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesPMWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesPMWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T19:34:10.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesPMWeb\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Minz\\Practice Projects\\EmployeesPMWeb\\EmployeesPMWeb\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-30T19:32:47.758Z"
+              "WhenOpened": "2025-05-02T14:37:32.919Z",
+              "EditorCaption": ""
             }
           ]
         }

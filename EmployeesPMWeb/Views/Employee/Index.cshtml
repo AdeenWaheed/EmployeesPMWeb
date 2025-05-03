@@ -1,0 +1,207 @@
+﻿@{
+    ViewBag.Title = "Employee Page";
+    string empName = "Testing Model Mapping";
+}
+
+<style>
+    .text-danger {
+        font-size: 0.875em;
+        margin-top: 0.25rem;
+    }
+</style>
+
+@* <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.19.5/jquery.validate.min.js"></script>
+ *@
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+@* <script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script> *@
+
+<partial name="_EmployeeList" model=empName />
+
+<!-- Add Employee Modal -->
+<div class="modal fade" id="addEmployeeModal" tabindex="-1" aria-labelledby="addEmployeeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addEmployeeModalLabel">Employee Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="addEmployeeForm">
+                    <div class="mb-3">
+                        <label for="employeeName" class="form-label">Name*</label>
+                        <input type="text" class="form-control" id="employeeName" name="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="employeePosition" class="form-label">Position<span class="text-danger">*</span></label>
+                        <select type="text" class="form-control" id="employeePosition" name="position">
+                            <option value="HR">HR</option>
+                            <option value="Admin">Admin</option>
+                            <option value="Head">Head</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="employeeDateOfJoining" class="form-label">Date of Joining<span class="text-danger">*</span></label>
+                        <input type="date" class="form-control" id="employeeDateOfJoining" name="dateOfJoining">
+                    </div>
+                    <input id="empId" type="text" value="" style="display: none"  />
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="saveEmployeeButton">
+                    <span id="spinner" class="spinner-border spinner-border-sm me-2" style="display: none;" role="status" aria-hidden="true"></span>
+                    Save
+                </button>
+                <button type="button" class="btn btn-primary" id="updateEmployeeButton">
+                    <span id="spinner" class="spinner-border spinner-border-sm me-2" style="display: none;" role="status" aria-hidden="true"></span>
+                    Update
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Button to trigger modal -->
+@* <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#addEmployeeModal">
+    Add Employee
+</button>
+ *@<button type="button" class="btn btn-primary mt-3" onclick="showEmpModal()">
+    Add Employee
+</button>
+
+<script>
+    $(document).ready(function () {
+        // Initialize form validation
+        $("#addEmployeeForm").validate({
+            rules: {
+                name: {
+                    required: true,
+                    minlength: 3
+                },
+                position: {
+                    required: true,
+                },
+                dateOfJoining: {
+                    required: true,
+                    date: true
+                }
+            },
+            messages: {
+                name: {
+                    required: "Name is required.",
+                    minlength: "Name must be at least 5 characters long."
+                },
+                position: {
+                    required: "Position is required."
+                },
+                dateOfJoining: {
+                    required: "Date of Joining is required.",
+                    date: "Please enter a valid date."
+                }
+            },
+            errorClass: "text-danger", // Add Bootstrap styling for error messages
+            errorElement: "span"
+        });
+    });
+
+     $('#saveEmployeeButton').click(function () {
+         // Validate the form before submitting
+         if (!$("#addEmployeeForm").valid()) {
+             return;
+         }
+
+         var formData = {
+             id: 0,
+             name: $('#employeeName').val(),
+             position: $('#employeePosition').val(),
+             dateOfJoining: $('#employeeDateOfJoining').val(),
+             // salary: 0.0,
+             isActive: true,
+         };
+         $('#spinner').show();
+         $("#saveEmployeeButton").prop('disabled', true);
+         $.ajax({
+             url: '/Employee/AddEmployee', // Replace with your endpoint
+             type: 'POST',
+             contentType: 'application/json',
+             data: JSON.stringify(formData),
+             success: function (response) {
+                 if(response.success) {
+                     alert('Employee added successfully!');
+                     $('#addEmployeeModal').modal('hide');
+                     getEmployeeList(); // Refresh the employee list
+                     clearEmployeeForm();
+                 } else {
+                     alert(response.message);
+                 }
+             },
+             error: function (xhr, status, error) {
+                 console.error('Error adding employee:', error);
+                 alert('Failed to add employee.');
+             },
+             complete: function () {
+                 // Hide the loader
+                 $('#spinner').hide();
+                 $("#saveEmployeeButton").prop('disabled', false);
+             }
+         });
+     });
+
+     $('#updateEmployeeButton').click(function () {
+         // Validate the form before submitting
+         if (!$("#addEmployeeForm").valid()) {
+             return;
+         }
+
+         var formData = {
+             id: $('#empId').val(),
+             name: $('#employeeName').val(),
+             position: $('#employeePosition').val(),
+             dateOfJoining: $('#employeeDateOfJoining').val(),
+             // salary: 0.0,
+             isActive: true,
+         };
+         $('#spinner').show();
+         $("#saveEmployeeButton").prop('disabled', true);
+         $.ajax({
+             url: '/Employee/UpdateEmployee', // Replace with your endpoint
+             type: 'PUT',
+             contentType: 'application/json',
+             data: JSON.stringify(formData),
+             success: function (response) {
+                 if(response.success) {
+                     alert('Employee updated successfully!');
+                     $('#addEmployeeModal').modal('hide');
+                     getEmployeeList(); // Refresh the employee list
+                     clearEmployeeForm();
+                 } else {
+                     alert(response.message);
+                 }
+             },
+             error: function (xhr, status, error) {
+                 console.error('Error updating employee:', error);
+                 alert('Failed to updating employee.');
+             },
+             complete: function () {
+                 // Hide the loader
+                 $('#spinner').hide();
+                 $("#saveEmployeeButton").prop('disabled', false);
+             }
+         });
+     });
+
+    function clearEmployeeForm() {
+        $('#employeeName').val('');
+        $('#employeePosition').val('');
+        $('#employeeDateOfJoining').val('');
+    }
+
+    function showEmpModal() {
+        clearEmployeeForm();
+        $("#addEmployeeModal").modal('show');
+        $("#saveEmployeeButton").show();
+        $("#updateEmployeeButton").hide();
+    }
+</script>

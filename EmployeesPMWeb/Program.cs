@@ -14,10 +14,11 @@ namespace EmployeesPMWeb
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            ConfigureDI(builder.Services);
-
             builder.Services.AddDbContext<EmployeeDBContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            ConfigureDI(builder.Services);
+
 
             builder.Services.AddControllersWithViews();
 
@@ -40,13 +41,13 @@ namespace EmployeesPMWeb
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Employee}/{action=Index}/{id?}");
 
             app.Run();
         }
 
         private static void ConfigureDI(IServiceCollection services)
-        { 
+        {
             services.AddScoped<IEmployeeRepo, EmployeeRepo>();
             services.AddScoped<IEmployeeService, EmployeeService>();
         }

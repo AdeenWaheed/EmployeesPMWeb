@@ -10,13 +10,6 @@
     }
 </style>
 
-@* <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/jquery.validation/1.19.5/jquery.validate.min.js"></script>
- *@
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-@* <script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script> *@
-
 <partial name="_EmployeeList" model=empName />
 
 <!-- Add Employee Modal -->
@@ -45,7 +38,7 @@
                         <label for="employeeDateOfJoining" class="form-label">Date of Joining<span class="text-danger">*</span></label>
                         <input type="date" class="form-control" id="employeeDateOfJoining" name="dateOfJoining">
                     </div>
-                    <input id="empId" type="text" value="" style="display: none"  />
+                    <input id="empId" type="text" value="" style="display: none" />
                 </form>
             </div>
             <div class="modal-footer">
@@ -71,137 +64,139 @@
     Add Employee
 </button>
 
-<script>
-    $(document).ready(function () {
-        // Initialize form validation
-        $("#addEmployeeForm").validate({
-            rules: {
-                name: {
-                    required: true,
-                    minlength: 3
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Initialize form validation
+            $("#addEmployeeForm").validate({
+                rules: {
+                    name: {
+                        required: true,
+                        minlength: 3
+                    },
+                    position: {
+                        required: true,
+                    },
+                    dateOfJoining: {
+                        required: true,
+                        date: true
+                    }
                 },
-                position: {
-                    required: true,
+                messages: {
+                    name: {
+                        required: "Name is required.",
+                        minlength: "Name must be at least 5 characters long."
+                    },
+                    position: {
+                        required: "Position is required."
+                    },
+                    dateOfJoining: {
+                        required: "Date of Joining is required.",
+                        date: "Please enter a valid date."
+                    }
                 },
-                dateOfJoining: {
-                    required: true,
-                    date: true
-                }
-            },
-            messages: {
-                name: {
-                    required: "Name is required.",
-                    minlength: "Name must be at least 5 characters long."
-                },
-                position: {
-                    required: "Position is required."
-                },
-                dateOfJoining: {
-                    required: "Date of Joining is required.",
-                    date: "Please enter a valid date."
-                }
-            },
-            errorClass: "text-danger", // Add Bootstrap styling for error messages
-            errorElement: "span"
+                errorClass: "text-danger", // Add Bootstrap styling for error messages
+                errorElement: "span"
+            });
         });
-    });
 
-     $('#saveEmployeeButton').click(function () {
-         // Validate the form before submitting
-         if (!$("#addEmployeeForm").valid()) {
-             return;
-         }
-
-         var formData = {
-             id: 0,
-             name: $('#employeeName').val(),
-             position: $('#employeePosition').val(),
-             dateOfJoining: $('#employeeDateOfJoining').val(),
-             // salary: 0.0,
-             isActive: true,
-         };
-         $('#spinner').show();
-         $("#saveEmployeeButton").prop('disabled', true);
-         $.ajax({
-             url: '/Employee/AddEmployee', // Replace with your endpoint
-             type: 'POST',
-             contentType: 'application/json',
-             data: JSON.stringify(formData),
-             success: function (response) {
-                 if(response.success) {
-                     alert('Employee added successfully!');
-                     $('#addEmployeeModal').modal('hide');
-                     getEmployeeList(); // Refresh the employee list
-                     clearEmployeeForm();
-                 } else {
-                     alert(response.message);
-                 }
-             },
-             error: function (xhr, status, error) {
-                 console.error('Error adding employee:', error);
-                 alert('Failed to add employee.');
-             },
-             complete: function () {
-                 // Hide the loader
-                 $('#spinner').hide();
-                 $("#saveEmployeeButton").prop('disabled', false);
+         $('#saveEmployeeButton').click(function () {
+             // Validate the form before submitting
+             if (!$("#addEmployeeForm").valid()) {
+                 return;
              }
-         });
-     });
 
-     $('#updateEmployeeButton').click(function () {
-         // Validate the form before submitting
-         if (!$("#addEmployeeForm").valid()) {
-             return;
-         }
-
-         var formData = {
-             id: $('#empId').val(),
-             name: $('#employeeName').val(),
-             position: $('#employeePosition').val(),
-             dateOfJoining: $('#employeeDateOfJoining').val(),
-             // salary: 0.0,
-             isActive: true,
-         };
-         $('#spinner').show();
-         $("#saveEmployeeButton").prop('disabled', true);
-         $.ajax({
-             url: '/Employee/UpdateEmployee', // Replace with your endpoint
-             type: 'PUT',
-             contentType: 'application/json',
-             data: JSON.stringify(formData),
-             success: function (response) {
-                 if(response.success) {
-                     alert('Employee updated successfully!');
-                     $('#addEmployeeModal').modal('hide');
-                     getEmployeeList(); // Refresh the employee list
-                     clearEmployeeForm();
-                 } else {
-                     alert(response.message);
+             var formData = {
+                 id: 0,
+                 name: $('#employeeName').val(),
+                 position: $('#employeePosition').val(),
+                 dateOfJoining: $('#employeeDateOfJoining').val(),
+                 // salary: 0.0,
+                 isActive: true,
+             };
+             $('#spinner').show();
+             $("#saveEmployeeButton").prop('disabled', true);
+             $.ajax({
+                 url: '/Employee/AddEmployee', // Replace with your endpoint
+                 type: 'POST',
+                 contentType: 'application/json',
+                 data: JSON.stringify(formData),
+                 success: function (response) {
+                     if(response.success) {
+                         alert('Employee added successfully!');
+                         $('#addEmployeeModal').modal('hide');
+                         getEmployeeList(); // Refresh the employee list
+                         clearEmployeeForm();
+                     } else {
+                         alert(response.message);
+                     }
+                 },
+                 error: function (xhr, status, error) {
+                     console.error('Error adding employee:', error);
+                     alert('Failed to add employee.');
+                 },
+                 complete: function () {
+                     // Hide the loader
+                     $('#spinner').hide();
+                     $("#saveEmployeeButton").prop('disabled', false);
                  }
-             },
-             error: function (xhr, status, error) {
-                 console.error('Error updating employee:', error);
-                 alert('Failed to updating employee.');
-             },
-             complete: function () {
-                 // Hide the loader
-                 $('#spinner').hide();
-                 $("#saveEmployeeButton").prop('disabled', false);
-             }
+             });
          });
-     });
 
-    function clearEmployeeForm() {
-        $('#employeeName').val('');
-        $('#employeePosition').val('');
-        $('#employeeDateOfJoining').val('');
-    }
+         $('#updateEmployeeButton').click(function () {
+             // Validate the form before submitting
+             if (!$("#addEmployeeForm").valid()) {
+                 return;
+             }
 
-    function showEmpModal() {
-        clearEmployeeForm();
-        $("#addEmployeeModal").modal('show');
-        $("#saveEmployeeButton").show();
-        $("#updateEmployeeButton").hide();
-    }
-</script>
+             var formData = {
+                 id: $('#empId').val(),
+                 name: $('#employeeName').val(),
+                 position: $('#employeePosition').val(),
+                 dateOfJoining: $('#employeeDateOfJoining').val(),
+                 // salary: 0.0,
+                 isActive: true,
+             };
+             $('#spinner').show();
+             $("#saveEmployeeButton").prop('disabled', true);
+             $.ajax({
+                 url: '/Employee/UpdateEmployee', // Replace with your endpoint
+                 type: 'PUT',
+                 contentType: 'application/json',
+                 data: JSON.stringify(formData),
+                 success: function (response) {
+                     if(response.success) {
+                         alert('Employee updated successfully!');
+                         $('#addEmployeeModal').modal('hide');
+                         getEmployeeList(); // Refresh the employee list
+                         clearEmployeeForm();
+                     } else {
+                         alert(response.message);
+                     }
+                 },
+                 error: function (xhr, status, error) {
+                     console.error('Error updating employee:', error);
+                     alert('Failed to updating employee.');
+                 },
+                 complete: function () {
+                     // Hide the loader
+                     $('#spinner').hide();
+                     $("#saveEmployeeButton").prop('disabled', false);
+                 }
+             });
+         });
+
+        function clearEmployeeForm() {
+            $('#employeeName').val('');
+            $('#employeePosition').val('');
+            $('#employeeDateOfJoining').val('');
+        }
+
+        function showEmpModal() {
+            clearEmployeeForm();
+            $("#addEmployeeModal").modal('show');
+            $("#saveEmployeeButton").show();
+            $("#updateEmployeeButton").hide();
+        }
+    </script>
+}
